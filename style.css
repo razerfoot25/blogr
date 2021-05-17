@@ -643,3 +643,13 @@ footer {
   }
 
 }
+
+.attribution { 
+  background: var(--vdblack-clr);
+  font-size: 11px;
+  text-align: center;
+  color: var(--white-clr);
+  }
+.attribution a { 
+  color:var(--lred-clr); 
+}
