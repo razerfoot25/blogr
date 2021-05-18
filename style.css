@@ -138,9 +138,16 @@ li {
   font-size: var(--font-h4);
 }
 
-footer li {
+footer li + li {
   font-weight: var(--font-light);
 }
+
+footer ul > .header {
+  font-family: var(--font-accent);
+  font-weight: var(--font-accent-semibold);
+}
+
+
 
 
 
@@ -378,16 +385,16 @@ html {
   border-top-right-radius: 70px;
 }
 
-footer ul h4 {
+footer ul > .header {
   padding: 1em 0;
 } 
 
-footer  li {
+footer  li + li {
   margin: 1rem 0;
   cursor: pointer;
 }
 
-footer  li:hover {
+footer  li + li:hover {
 
   text-decoration: underline;
 }
